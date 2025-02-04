@@ -1,12 +1,12 @@
 #include "Game.hpp"
 
-int main(int argc, char *argv[]) {
-  Game game;
-  if (!game.init())
-    return EXIT_FAILURE;
+int main(int argc, char* argv[]) {
+    Game game;
+    if (!game.init())
+        return EXIT_FAILURE;
 
-  game.run();
-  game.cleanup();
+    game.run();
+    game.cleanup();
 
-  return EXIT_SUCCESS;
+    return EXIT_SUCCESS;
 }
